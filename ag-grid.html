@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Preqin Test: AG Grid</title>
+        <script src="https://unpkg.com/ag-grid-enterprise/dist/ag-grid-enterprise.js"></script>
+        <link rel="stylesheet" href="https://unpkg.com/ag-grid-community/dist/styles/ag-grid.css">
+        <link rel="stylesheet" href="https://unpkg.com/ag-grid-community/dist/styles/ag-theme-balham.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css" />
+    </head>
+    <body>
+        <nav>
+            <img src="images/preqin.svg" style="width:110px" alt="Preqin Logo">
+        </nav>
+        <div class='topbar'>
+            <div id='totalRows'>Preqin Funds with Performance</div>
+            <input class="tablefilter" type="text" size=30% oninput="onQuickFilterChanged()" id="quickFilter" placeholder="Filter Table..."/>
+        </div>
+        <div id="myGrid" style="height:84vh; width:100%;" class="ag-theme-balham"></div>
+        <script src=js/data.js type="text/javascript" charset="utf-8"></script>
+        <script src=js/index.js type="text/javascript" charset="utf-8"></script>
+    </body>
+</html>

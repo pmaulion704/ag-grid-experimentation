@@ -1,0 +1,40 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+nav {
+    background-color: #2b2d35;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 10px;
+    z-index: 999;
+    box-shadow: 0px 2px 5px rgba(0,0,0, 0.5)
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px 0px 10px 0px
+}
+
+.title {
+    text-align: left;
+    font-size: 24px;
+}
+
+.tablefilter {
+    font-size: 16px;
+    padding-left: 10px;
+    height: 36px
+
+}
+
+#totalRows {
+    font-size: 20px;
+}
